@@ -45,19 +45,8 @@ bot.on('message', msg=>{
         console.log(shakeInsult);
         msg.channel.send(shakeInsult);
     }
-    if(msg.content.includes('pakistan')){
-        msg.channel.send('Pakistan Ki Ma Ka Bhosda, Pakistan Ki Ma Ki Chut')
-    }
-    if(msg.content === 'gand mara' || msg.content === 'gaand mara'){
-        msg.channel.send('khud karle bsdk');
-    }
-    if(msg.content === 'fuck you'){
-        msg.channel.send('fuck me yourself');
-    }
+ 
     if(msg.content.startsWith('!loduintro')){
         msg.channel.send('Hello\nMy name is Biryani Lodu\nEveryone calls me Lodu sir,even though that is my fathers name sir\nI am here because my creator is very lazy sir and thinks this is cool sir\nHere is what I can do:\n1.!loduintro for introduction\n2.!loduinsult or !LoduInsult for random Shakespearean insult\n3.!loducat for a random cat picture\nThank you sir.');
-    }
-    if(msg.content === 'fuck me'){
-        msg.channel.send('tired of being an incel are you?');
     }
 })
